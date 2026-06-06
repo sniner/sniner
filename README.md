@@ -1,4 +1,4 @@
-# Selected Projects
+## Selected Projects
 
 - **[docuware-client](https://github.com/sniner/docuware-client)** — Client library for the DocuWare DMS REST API. Query archives, transfer documents, edit index fields, read OCR text; ships with a `dw-client` CLI for everyday tasks.
 - **[docuware-mcp](https://github.com/sniner/docuware-mcp)** — MCP server that exposes DocuWare to LLM clients like Claude Desktop. Built on top of [docuware-client](https://github.com/sniner/docuware-client).
@@ -11,3 +11,4 @@
 - **[imapbackup](https://github.com/sniner/imapbackup)** — Back up and archive IMAP mailboxes. A local, searchable copy independent of your provider.
 - **[monsta](https://github.com/sniner/monsta)** — Lightweight status and metrics REST endpoint for Python applications. FastAPI-native and thread-safe, with declarative counters, samplers, and holders for app state.
 - **[media-toolbelt](https://github.com/sniner/media-toolbelt)** — Docker image bundling audio and video CLI tools (ffmpeg, sox, flac, loudgain, MKVToolNix, and friends). A portable toolbox for hosts like Unraid where installing software is awkward.
+- **[dockdoe](https://github.com/sniner/dockdoe)** — Single-binary Docker host monitor with an embedded web UI. Live container metrics — CPU, memory, state — grouped by compose stack, with htop-style host stats on top. For when squinting at `docker stats` has lost its charm.
