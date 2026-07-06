@@ -4,6 +4,7 @@
 - **[docuware-mcp](https://github.com/sniner/docuware-mcp)** — MCP server that exposes DocuWare to LLM clients like Claude Desktop. Built on top of [docuware-client](https://github.com/sniner/docuware-client).
 - **[filebridge](https://github.com/sniner/filebridge)** — Lightweight, secure REST API for remote file access — for when FTP and SFTP feel like either too much or too little.
 - **[revenant](https://github.com/sniner/revenant)** — Atomic Btrfs snapshots of the Linux root filesystem, EFI partition included. A safety net against bad updates.
+- **[exhume](https://github.com/sniner/exhume)** — A resumable disk imaging and rescue tool — a friendlier `dd`/`ddrescue`. Its `--refresh` mode rewrites only the blocks that actually changed, sparing flash/NAND unnecessary write cycles, and a human-readable state file makes any interrupted run resumable.
 - **[jellyplex-sync](https://github.com/sniner/jellyplex-sync)** — Keeps Plex and Jellyfin movie libraries in sync through hardlinks — one file on disk, two frontends to enjoy it from.
 - **[uwhat](https://github.com/sniner/uwhat)** — A human-friendly USB device lister — for when the output of `lsusb` makes your eyes glaze over.
 - **[fifi](https://github.com/sniner/fifi)** — Finds identical files in directory trees. Fast, parallel, and hardlink-aware. Rust successor to [duplicates](https://github.com/sniner/duplicates), with xxh3 hashing and JSON output for scripting.
